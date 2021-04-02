@@ -13,6 +13,7 @@
 var http = require("http");
 var fs = require("fs"); // for working with files
 var url = require("url");
+const port = process.env.PORT || 5000;
 
 http
   .createServer(function (req, res) {
@@ -36,6 +37,6 @@ http
       return res.end();
     });
   })
-  .listen(8080);
+  .listen(port);
 
 console.log("Server listening");
