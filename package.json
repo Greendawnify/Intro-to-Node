@@ -1,0 +1,19 @@
+{
+  "name": "firstnode",
+  "version": "12.21.0",
+  "description": "simple web app",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Greendawnify/Intro-to-Node.git"
+  },
+  "author": "Antonio Diaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Greendawnify/Intro-to-Node/issues"
+  },
+  "homepage": "https://github.com/Greendawnify/Intro-to-Node#readme"
+}
